@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Line Chart</title>
+		<script src="../Chart.js"></script>
+		<meta name = "viewport" content = "initial-scale = 1, user-scalable = no">
+		<style>
+			canvas{
+			}
+		</style>
+	</head>
+	<body>
+		<canvas id="canvas" height="350" width="600"></canvas>
+
+
+	<script>
+
+		var lineChartData = {
+			labels : ["Jan 1", "Jan 8", "Jan 15", "Jan 22", "Jan 29"],
+			datasets : [
+				{
+					fillColor : "rgba(100,146,164,0.2)",
+					strokeColor : "rgba(100,146,164,1)",
+					pointColor : "rgba(100,146,164,1)",
+					pointStrokeColor : "#fff",
+					data : [1000, 1200, 1500, 1900, 2400]
+				}
+			]
+
+		}
+
+        var options = 	{bezierCurve : false,
+    scaleOverride: true,
+    scaleSteps: 3,
+    scaleStepWidth: 500,
+    scaleStartValue: 1000
+};
+
+	var myLine = new Chart(document.getElementById("canvas").getContext("2d")).Line(lineChartData, options);
+
+	</script>
+	</body>
+</html>

@@ -1978,3 +1978,10 @@ hr {
     height: 1px;
     border: 0 none;
 }
+
+.iborder {
+    width: 100%;
+    border: #eee;
+    border-width: 1px;
+    border-style: solid;
+}

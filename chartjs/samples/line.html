@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Line Chart</title>
+		<script src="../Chart.js"></script>
+		<meta name = "viewport" content = "initial-scale = 1, user-scalable = no">
+		<style>
+			canvas{
+			}
+		</style>
+	</head>
+	<body>
+		<canvas id="canvas" height="450" width="600"></canvas>
+
+
+	<script>
+
+		var lineChartData = {
+			labels : ["Day 0","Day 1","Day 2","Day 3","Day 4","Day 5","Day 6", "Day 7", "Day 8", "Day 9"],
+			datasets : [
+				{
+					strokeColor : "rgba(40,150,40,1)",
+					pointColor : "rgba(40,150,40,1)",
+					pointStrokeColor : "#fff",
+ data: [1.0,
+ 0.3,
+ 0.191111111111111,
+ 0.1292307692307693,
+ 0.0923529411764705,
+ 0.0619047619047616,
+ 0.05,
+ 0.040482758620689655,
+ 0.03303030303030304,
+ 0.03]
+				},
+				{
+					strokeColor : "rgba(100,146,164,1)",
+					pointColor : "rgba(100,146,164,1)",
+					pointStrokeColor : "#fff",
+ data: [1.0,
+ 0.25,
+ 0.1411111111111111,
+ 0.0892307692307693,
+ 0.061823529411764705,
+ 0.0489047619047616,
+ 0.042,
+ 0.035758620689655,
+ 0.030303030303030304,
+ 0.03]
+				}
+			]
+
+		}
+
+        var options = 	{
+                datasetFill: false,
+                bezierCurve : false,
+                scaleOverride: true,
+                scaleSteps: 10,
+                scaleStepWidth: 0.1,
+                scaleStartValue: 0
+                };
+	var myLine = new Chart(document.getElementById("canvas").getContext("2d")).Line(lineChartData, options);
+
+	</script>
+	</body>
+</html>
