@@ -17,10 +17,10 @@ I am fascinated by the recent advances in Machine Learning, AI and autonomous ve
 If you would like to see a more detailed profile, please visit [my linkedin page](http://www.linkedin.com/in/abhayv). You can also reach me at firstname dot lastname at gmail dot com.
 
 <h2>Posts</h2>
-    {% for post in site.posts %}
-      <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
-      {% unless forloop.last %}
-      <hr>
-      {% endunless %}
-    {% endfor %}
+{% for post in site.posts %}
+<h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+{% unless forloop.last %}
+* * *
+{% endunless %}
+{% endfor %}
 
