@@ -6,7 +6,7 @@ title: Abhay Vardhan
 # Abhay Vardhan
 
 I am a software engineer and an entrepreneur with deep experience in web, data processing, backend systems, and machine learning. I am currently an engineer at Uber. At Uber, I have seen the engineering team grow from around a hundred people to a few thousand. It has been a privilege to work with passionate people solving hard problems which affect millions across the globe.
-Previously, I was the co-founder of [Blippy](http://blippy.com), a cool way to discover GIFs and share them with your friends.
+Previously, I was the co-founder of Blippy, a cool way to discover GIFs and share them with your friends.
 
 I have a PhD in Computer Science from University of Illinois where I worked on using learning techniques for verification of software systems.
 After my PhD, I joined Google in the web search team and got hands-on experience in ranking, search evaluation and analysis of large amounts of data.
