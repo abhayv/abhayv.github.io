@@ -14,4 +14,5 @@ In order to experiment with various techniques rapidly, it is useful to have a g
 * [Gazebo](http://gazebosim.org/) provides an open source robotics simulator which is deeply integrated with ROS.
 
 * [V-rep](http://www.coppeliarobotics.com/) offers a great environment for robot simulators. It simulates a range of sensors including a vision sensor on the robot itself which can be used to simulate a self driving car with a front facing camera as  the main visual input. Here is a screenshot of an environment that I have been playing with.
-<img class="iborder" src="/assets/vrep.png”/>
+
+Screenshot of a v-rep simulation can be seen below. <img class="iborder" src="/assets/vrep.png”/>
