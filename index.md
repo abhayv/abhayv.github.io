@@ -15,7 +15,7 @@ I am fascinated by the recent advances in Machine Learning, AI and autonomous ve
 
 I have been following up on the advances made in deep learning, computer vision, robotics with a particular focus on self driving cars. I have avidly consumed various the AI related classes at [Stanford](http://cs231n.github.io/), [Udacity](https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd013) and on the web and have been recently working on a project in my spare time to use an Android based toy car and simulation environments to try out various techniques for automation.
 
-If you would like to see a more detailed profile, please visit [my linkedin page](http://www.linkedin.com/in/abhayv). You can also reach me at firstname dot lastname at gmail dot com.
+If you would like to see a more detailed profile, please visit [my linkedin page](http://www.linkedin.com/in/abhayv) or checkout some of my recent projects on [github](https://github.com/abhayv?tab=repositories). You can also reach me at firstname dot lastname at gmail dot com.
 
 ## Posts
 {% for post in site.posts %}
