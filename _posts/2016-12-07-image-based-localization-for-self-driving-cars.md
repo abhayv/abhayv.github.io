@@ -7,7 +7,7 @@ title: Image based localization for self driving cars
 
 Localization is an important part of the self driving car technology as one has to know where one is to even begin to do any kind of automation. Traditionally, LIDAR has been used for self driving cars but although it gives detailed sensory data, it is expensive. There has been a move to push the boundaries by using image data alone as cameras are cheap.
 
-I am participating in [Udacity's coding challenge](https://medium.com/udacity/challenge-3-image-based-localization-5d9cadcff9e7#.x4pztnami). Here, we are given a stream of images from a front facing camera on the car’s dash tagged with the corresponding latitude and longitude from GPS sensors. The task is to be able to match a image presented later and figure out the latitude and longitude by matching to a previously seen image.
+I am participating in [Udacity's coding challenge](https://medium.com/udacity/challenge-3-image-based-localization-5d9cadcff9e7#.x4pztnami) to do image based localization. Here, we are given a stream of images from a front facing camera on the car’s dash tagged with the corresponding latitude and longitude from GPS sensors. The task is to be able to match a image presented later and figure out the latitude and longitude by matching to a previously seen image.
 
 Classical SLAM would be too slow for this exercise so I investigated a bunch of different techniques. The main idea is to be able to search efficiently from the previously given images. Here are the some of the approaches I have looked into:
 
