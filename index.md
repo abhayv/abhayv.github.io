@@ -7,7 +7,7 @@ title: Abhay Vardhan
 
 I am passionate about artificial intelligence and autonomous driving.  I love working at the intersection of cutting edge research and technology that will transform the world.
 
-I am currently at Uber ATG where I work in the trucks team solving problems in driving on highways.
+I am currently at Aurora Innovation where I work in the Localization team. Previously, I was at Uber ATG where I work in the trucks team solving problems in driving on highways.
 
 At Uber, I also got a chance to work earlier in the India Growth team. Our team was the one that introduced cash payments at Uber which has now become the dominant payment method for emerging markets. I worked closely with product managers and operation teams to brainstorm and drive ideas for growth in India. The team saw Uber grow from a minuscule player to a dominant one in India.
 
